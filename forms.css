@@ -6,8 +6,8 @@
 
 }
 .form{
-    height: 100vh;
-    background-image: url(/images/FORMSBG.jfif);
+    height: 110vh;
+    background-image: url(/FRMBG.webp);
     background-size: cover;
 }
 .titl{
@@ -18,22 +18,27 @@
 
 .main-cont{
     display: flex;
+    flex-wrap: wrap;
     padding-top: 7%;
     justify-content: space-evenly;
     width: 100%;
     border-radius: 10px;
     line-height: 3vh;
+    color: bisque;
 
 }
+
 .rg{
     display: flex;
     
 }
 .main-cont i{
     margin-top: 5%;
+    margin-right: 3%;
+    font-size: large;
 }
 .main-cont input{
-    height: 5vh;
+    height: 7vh;
     color: white;
     border-color: dimgray;
     width: 100%;
@@ -41,9 +46,14 @@
     background-color:transparent;
     border-radius: 8px;
     border:  3px solid #333;
-    margin-left: 3%;
+    margin-left: 0%;
     outline: 0;
     /* background: transparent; */
+}
+.main-cont ::placeholder{
+    color: bisque;
+    padding-left: 10%;
+    font-size: medium;
 }
 .gender{
     padding-left: 30%;
@@ -114,22 +124,26 @@
 }
 .box{
     border: 2px solid black;
-    width: 90%;
-    margin-left: 5%;
+    width: 95%;
+    margin-left: 3%;
     margin-top: 2%;  
     border-radius: 10px; 
 }
 .gender .gndr{
-    margin-top: 3%;
+    margin-top: 0%;
     padding-right: 12%;
+}
+.gender .selc{
+    margin-top: 0%;
+    display: flex;
+    gap: 10px;
+    width: 100%;
 }
 
 .gender .selc input{
     padding-left: 10%;
 }
-.gender .selc{
-    margin-top: 5%;
-}
+
 @media(max-width:1050px){
     .sub button{
         margin-top: 4%;
@@ -143,23 +157,41 @@
     .main-cont .cn-ps{
         width: 107%;
     }
+    .clm1{
+        width: 30%;
+    }
+    .clm2{
+        width: 30%;
+    }
 }
 @media(max-width:800px){
+    .clm1{
+        width: 30%;
+    }
+    .clm2{
+        width: 30%;
+    }
+    .main-cont{
+        line-height: 5vh;
+    }
+    .gender{
+        padding-left: 20%;
+    }
     .main-cont.cn-ps h2{
         font-size: 1.3rem;
     }
     .sub{
-        margin-top: 3%;
+        margin-top: 1%;
     }
 }
 @media(max-width:750px){
     .form{
-        height: 140vh;
+       height: 200vh;
     }
     .main-cont{
         flex-direction: column;
-        padding-left: 30%;
-        padding-top: 2%;
+        padding-left: 23%;
+    
     }
     .box {
         border: 2px solid black;
@@ -173,10 +205,10 @@
     .rg {
         display: flex;
         /* width: 100%; */
-        margin-right: -100%;
+        margin-right: -110%;
     }
     .gender {
-        padding-left: 30%;
+        padding-left: 17%;
         display: flex;
         padding-top: 1%;
     }
@@ -193,13 +225,23 @@
     .sub{
         padding-top: 0%;
     }
+    .gender{
+    
+    }
 }
 @media(max-width:700px){
+    .titl{
+        padding-top: 10%;
+    }
+    
     .box {
         border: 2px solid black;
         width: 75%;
         margin-left: 13%;
-        margin-top: 2%;
+        margin-top: 10%;
+    }
+    .form img{
+        
     }
     .main-cont h2{
         font-size: 1.1rem;
@@ -216,7 +258,7 @@
        
     }
     .main-cont {
-        padding-left: 15%;
+        padding-left: 8%;
 
     }
     .clm1{
@@ -228,24 +270,27 @@
     .rg {
         display: flex;
         /* width: 100%; */
-        margin-right: -140%;
+        margin-right: -130%;
     }
     .gender{
-        padding-left: 18%;
+        padding-left: 10%;
     }
     .gender h2{
         font-size: 1.2rem;
     }
 }
 @media(max-width:600px){
+    .form{
+        background-position-x: 575px;
+    }
     .main-cont h2{
         font-size: 1.1rem;
     }
     .form{
-        height: 145vh;
+        height: 195vh;
     }
     .gender {
-        padding-left: 18%;
+        padding-left: 5%;
     }
     .main-cont .L-name{
         width: 180%;
@@ -256,21 +301,32 @@
     .main-cont.ph-no{
         width: 150%;
     }
+    .sub button{
+        width: 15%;
+    }
 }
 @media(max-width:550px){
+    .main-cont{
+        padding-top: 0;
+    }
     .form{
-        height: 140vh;
+        height: 194vh;
+    }
+    .main-cont ::placeholder{
+        font-size: medium;
     }
     .main-cont h2{
         font-size: 1rem;
     }
     .gender{
-        margin-left: 5%;
+        margin-left: 0%;
     }
     .sub button {
         height: 6vh;
         width: 20%;
         margin-left: 40%;
+        margin-top: 15%;
+
     }
 }
 @media(max-width:500px){
@@ -288,10 +344,20 @@
         width: 171%;
     }
     .gender{
-        margin-left: 0%;
+        margin-left: -3%;
+        padding-left: 0%;
     }
+    .gender .gndr{
+        padding-left: 6%;
+        padding-right: 2%;
+    }
+
 }
 @media(max-width:450px){
+    .box {
+        width: 80%;
+        margin-left: 10%;
+    }
     .main-cont .L-name{
         width: 125%;
     }
@@ -308,15 +374,25 @@
         margin-left: 5%;
     }
     .rg{
-        margin-right: -200%;
+        margin-right: -185%;
     }
     .gender{
-        padding-left: 5%;
-        padding-top: 3%;
+        padding-left: 0%;
+        padding-top: 0%;
     }
+    .gender .selc{
+        gap: 3px;
+    } 
 
 }
 @media(max-width:400px){
+    .box{
+        width: 80%;
+        margin-left: 10%
+    }
+    .main-cont{
+        padding-left: 0%;
+    }
     .main-cont .fn{
         width: 150%;
     }
@@ -329,4 +405,14 @@
     .main-cont .ph-no{
         width: 200%;
     }
+    .gender .selc{
+        gap: 3px;
+    }     
+}
+@media(max-width:340px){
+    .box {
+        width: 90%;
+        margin-left: 5%;
+    }
+        
 }
