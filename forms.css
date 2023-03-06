@@ -231,6 +231,9 @@
     }
 }
 @media(max-width:700px){
+    .form{
+        background-position-x: 675px;
+    }
     .titl{
         padding-top: 10%;
     }
@@ -249,6 +252,10 @@
     }
 }
 @media(max-width:650px){
+    .form{
+        background-position-x: 650px;
+    }
+    
     .main-cont h2{
         font-size: 1.2rem;
     }
@@ -263,15 +270,15 @@
 
     }
     .clm1{
-        margin-left: 10%;
+        margin-left: 3%;
     }
     .clm2{
-        margin-left: 10%;
+        margin-left: 3%;
     }
     .rg {
         display: flex;
         /* width: 100%; */
-        margin-right: -130%;
+        margin-right: -185%;
     }
     .gender{
         padding-left: 10%;
@@ -289,6 +296,9 @@
     }
     .form{
         height: 195vh;
+    }
+    .clm{
+        margin-left: 2%;
     }
     .gender {
         padding-left: 5%;
@@ -328,6 +338,9 @@
     .main-cont h2{
         font-size: 1rem;
     }
+    .clm{
+        margin-left: 2%;
+    }
     .gender{
        padding-top: 10%;
     }
@@ -335,7 +348,7 @@
         height: 6vh;
         width: 20%;
         margin-left: 40%;
-        margin-top: 15%;
+        margin-top: 10%;
 
     }
 }
@@ -358,6 +371,10 @@
     .main-cont .ph-no{
         width: 171%;
     }
+    .box {
+        width: 80%;
+        margin-left: 10%;
+    }
     .gender{
         margin-left: -3%;
         padding-left: 0%;
@@ -365,6 +382,9 @@
     .gender .gndr{
         padding-left: 6%;
         padding-right: 2%;
+    }
+    .sub button{
+        margin-top: 3%;
     }
 
 }
@@ -405,8 +425,8 @@
 }
 @media(max-width:400px){
     .box{
-        width: 80%;
-        margin-left: 10%
+        width: 90%;
+        margin-left: 5%
     }
     .main-cont{
         padding-left: 0%;
