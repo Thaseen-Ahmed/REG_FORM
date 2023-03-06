@@ -304,6 +304,15 @@
     .sub button{
         width: 15%;
     }
+    .gender{
+        padding-top: 10%;
+     }
+     .gender .gndr{
+        margin-top: -7%;
+     }
+     .gender .selc{
+        margin-top: -7%;
+     }
 }
 @media(max-width:550px){
     .main-cont{
@@ -319,7 +328,7 @@
         font-size: 1rem;
     }
     .gender{
-        margin-left: 0%;
+       padding-top: 10%;
     }
     .sub button {
         height: 6vh;
@@ -354,6 +363,9 @@
 
 }
 @media(max-width:450px){
+    .form{
+        height: 195vh;
+    }
     .box {
         width: 80%;
         margin-left: 10%;
@@ -378,7 +390,7 @@
     }
     .gender{
         padding-left: 0%;
-        padding-top: 0%;
+        padding-top: 15%;
     }
     .gender .selc{
         gap: 3px;
