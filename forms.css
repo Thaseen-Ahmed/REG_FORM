@@ -49,7 +49,7 @@
     border:  3px solid #333;
     margin-left: 0%;
     outline: 0;
-    /* background: transparent; */
+    background: rgba(0, 0, 0, 0.623);
 }
 .main-cont ::placeholder{
     color: bisque;
@@ -393,8 +393,8 @@
         height: 195vh;
     }
     .box {
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
     }
     .main-cont .L-name{
         width: 125%;
@@ -406,10 +406,10 @@
         width: 189%;
     }
     .clm1{
-        margin-left: 5%;
+        margin-left: 2%;
     }
     .clm2{
-        margin-left: 5%;
+        margin-left: 2%;
     }
     .rg{
         margin-right: -185%;
