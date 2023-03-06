@@ -340,6 +340,11 @@
     }
 }
 @media(max-width:500px){
+    .box {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
     .main-cont .fn{
         width: 130%;
     }
