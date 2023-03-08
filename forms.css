@@ -7,12 +7,12 @@
 }
 .form{
     height: 110vh;
-    background-image: url(/FRMBG.webp);
+    background-image: url(/images/frm2.webp);
     background-size: cover;
 }
 .titl{
     text-align: center;
-    color: rgb(36, 77, 52);
+    color:lemonchiffon;
     font-size: larger;
 }
 
