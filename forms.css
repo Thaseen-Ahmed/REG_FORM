@@ -74,10 +74,10 @@
     background-color: darkkhaki;
 }
 .clm1{
-    width: 25%;
+    width: 30%;
 }
 .clm2{
-    width: 25%;
+    width: 30%;
 }
 .main-cont .fn{
     margin-left: 12%;
@@ -125,8 +125,8 @@
 }
 .box{
     border: 2px solid black;
-    width: 95%;
-    margin-left: 3%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 2%;  
     border-radius: 10px; 
 }
@@ -482,5 +482,4 @@
         width: 90%;
         margin-left: 5%;
     }
-        
 }
